@@ -1,0 +1,54 @@
+.text-box1 {
+    float: left;
+    height: 300px;
+    width: 500px;
+    padding-left: 50px;
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+
+.photo-buttons{
+    float: right;
+    margin-right: 200px;
+    margin-top: 200px;
+}
+
+.photo-button{
+    object-fit: cover;
+    height: 150px;
+    width: 150px;
+    border-radius: 100%
+}
+
+.photo-button1 {
+    transition: 0.7s;
+    margin: 10px;
+}
+
+.photo-button2{
+    transition: 0.7s;
+    margin: 10px;
+}
+.photo-button3{
+    transition: 0.7s;
+    margin: 10px;
+}
+
+.photo-button1:hover{
+    height: 200px;
+    width: 200px;
+    box-shadow: 0px 10px 300px #1499ff;
+}
+
+.photo-button2:hover{
+    height: 200px;
+    width: 200px;
+    box-shadow: 0px 10px 300px #ff472e;
+}
+
+.photo-button3:hover{
+    height: 200px;
+    width: 200px;
+    box-shadow: 0px 10px 300px #68ff42;
+}
